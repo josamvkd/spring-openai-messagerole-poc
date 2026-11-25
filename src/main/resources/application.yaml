@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-openai-messagerole-poc
+
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+
+server:
+  port: 9191
